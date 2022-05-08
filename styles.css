@@ -38,35 +38,38 @@
     grid-template-columns: 1fr 5fr;
 }
 
-.subcontainer1 img {
+.side-bar-header img {
     height: 35px;
-    padding: 10px 15px 10px 20px;
+    padding: 20px 15px 30px 20px;
     filter: invert(95%) sepia(5%) saturate(20%) hue-rotate(208deg) brightness(106%) contrast(106%);
     color: white;
 }
 
-.subcontainer1 p {
+.side-bar-header p {
     align-self: center;
     padding-right: 20px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
 }
 
-.subcontainer2 img,
-.subcontainer3 img{
+.side-bar-container img {
     height: 15px;
     padding: 10px 20px 10px 30px;
     filter: invert(95%) sepia(5%) saturate(20%) hue-rotate(208deg) brightness(106%) contrast(106%);
 }
 
-.subcontainer2 p, 
-.subcontainer3 p {
+.side-bar-container p {
     align-self: center;
 }
 
-.subcontainer1, 
-.subcontainer2, 
-.subcontainer3 {
-    align-self: center;
+.side-bar-header:hover,
+.side-bar-container img:hover,
+.side-bar-container p:hover {
+    cursor: pointer;
+} 
+
+#settings {
+    padding-top: 30px;
 }
 
 .nav {
