@@ -21,7 +21,6 @@
     font-weight: 900;
 }
 
-
 .container {
     height: 100vh;
     display: grid;
@@ -256,6 +255,10 @@ input:focus {
     font-weight: bold;
 }
 
+.card p:nth-child(1):hover {
+    cursor: pointer;
+}
+
 .card p:nth-child(2) {
     padding-left: 20px;
     padding-right: 20px;
@@ -270,6 +273,10 @@ input:focus {
 .card-icons img {
     height: 1rem;
     padding-right: 11px;
+}
+
+.card-icons img:hover {
+    cursor: pointer;
 }
 
 .side-container {
@@ -308,6 +315,10 @@ input:focus {
 .announcements .content .row p:first-of-type {
     font-size: 14px;
     font-weight: bold;
+}
+
+.announcements .content .row p:first-of-type:hover {
+    cursor: pointer;
 }
 
 .announcements .content .row p:last-of-type {
@@ -377,9 +388,12 @@ input:focus {
     font-weight: bold;
 }
 
+.trending .row .name p:first-of-type:hover {
+    cursor: pointer;
+}
+
 .trending .row .name p:last-of-type {
     align-self: start;
     grid-row: 2;
-    padding-top: 0.25rem;
     font-size: 13px;
 }
