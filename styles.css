@@ -271,3 +271,115 @@ input:focus {
     height: 1rem;
     padding-right: 11px;
 }
+
+.side-container {
+    display: grid;
+    grid-template-rows: 1fr 1.3fr;
+}
+
+.announcements {
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: 10px auto;
+    row-gap: 20px;
+}
+
+.announcements p:first-of-type {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.announcements .content {
+    height: 250px;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 10px;
+}
+
+.announcements .content .row:nth-child(2) p:first-of-type, 
+.announcements .content .row:nth-child(3) p:first-of-type {
+    padding-top: 0.5rem;
+}
+
+
+.announcements .content .row p:first-of-type {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.announcements .content .row p:last-of-type {
+    padding-top: 0.12rem;
+    font-size: 12px;
+}
+
+.announcements .content .row:first-of-type {
+    border-bottom: 1px solid rgb(222, 229, 237);
+}
+
+.announcements .content .row:last-of-type {
+    border-top: 1px solid rgb(222, 229, 237);
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 10px auto;
+    row-gap: 40px;
+}
+
+.trending p:first-of-type {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.trending .content {
+    height: 90%;
+    width: 80%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.trending .content .row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.trending .content .row:nth-child(1), 
+.trending .content .row:nth-child(2), 
+.trending .content .row:nth-child(3){
+    border-bottom: 1px solid rgb(222, 229, 237);
+}
+
+.trending .content .row img {
+    align-self: center;
+    justify-self: center;
+}
+
+.trending img {
+    height: 60px;
+}
+
+.trending .row .name {
+    padding-left: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-content: center;
+}
+.trending .row .name p:first-of-type {
+    grid-row: 1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.trending .row .name p:last-of-type {
+    align-self: start;
+    grid-row: 2;
+    padding-top: 0.25rem;
+    font-size: 13px;
+}
