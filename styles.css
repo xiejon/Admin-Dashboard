@@ -24,8 +24,8 @@
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
 }
 
 .sidebar {
@@ -206,6 +206,8 @@ input:focus {
 }
 
 .main {
+    height: 100%;
+    width: 100%;
     grid-column: 2;
     grid-row: 2;
     background-color: rgb(222, 229, 237);
@@ -260,9 +262,10 @@ input:focus {
 }
 
 .card p:nth-child(2) {
+    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(62, 62, 62);
 }
 
@@ -384,7 +387,7 @@ input:focus {
 }
 .trending .row .name p:first-of-type {
     grid-row: 1;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -395,5 +398,5 @@ input:focus {
 .trending .row .name p:last-of-type {
     align-self: start;
     grid-row: 2;
-    font-size: 13px;
+    font-size: 15px;
 }
