@@ -238,6 +238,7 @@ input:focus {
     border-radius: 7px;
     display: grid;
     grid-template-columns: 6px auto;
+    box-shadow: 1px 2px 6px 1px rgb(189, 189, 189);
 }
 
 .stripe {
@@ -307,6 +308,7 @@ input:focus {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     border-radius: 10px;
+    box-shadow: 1px 2px 6px 1px rgb(189, 189, 189);
 }
 
 .announcements .content .row:nth-child(2) p:first-of-type, 
@@ -357,6 +359,7 @@ input:focus {
     border-radius: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    box-shadow: 1px 2px 6px 1px rgb(189, 189, 189);
 }
 
 .trending .content .row {
